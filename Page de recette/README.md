@@ -17,8 +17,8 @@ Cette page web est une solution au defi organisé par [Frontend Mentor](https://
 
 ### Liens
 
-- Solution URL: [https://github.com/joelavj/Page-de-recette](https://github.com/joelavj/Page-de-recette)
-- Live Site URL: [https://joelavj.github.io/Page-de-recette/](https://joelavj.github.io/Page-de-recette/)
+- Solution URL: [https://github.com/joelavj/Page-de-recette](https://github.com/joelavj/Defi-Frontend-Mentor/tree/main/Page%20de%20recette)
+- Live Site URL: [https://joelavj.github.io/Page-de-recette/](https://joelavj.github.io/Defi-Frontend-Mentor/Page%20de%20recette/index.html)
 
 ## Auteur
 

@@ -14,8 +14,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![](./screenshot.jpg) 
 
 ### Links
-- Solution URL:[https://github.com/joelavj/QR-Code.git](https://github.com/joelavj/QR-Code.git)
-- Live Site URL: [https://joelavj.github.io/QR-Code/index.html](https://joelavj.github.io/QR-Code/)
+- Solution URL:[https://github.com/joelavj/QR-Code.git](https://github.com/joelavj//Defi-Frontend-Mentor/tree/main/QR%20Code/)
+- Live Site URL: [https://joelavj.github.io/QR-Code/index.html](https://joelavj.github.io/Defi-Frontend-Mentor/QR%20Code/index.html)
 
 ## My process
 ### Built with

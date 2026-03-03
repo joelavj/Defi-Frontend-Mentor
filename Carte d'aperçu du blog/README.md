@@ -17,8 +17,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://github.com/joelavj/Carte-d-aper-u-du-blog](https://github.com/joelavj/Carte-d-aper-u-du-blog)
-- Live Site URL: [https://joelavj.github.io/Carte-d-aper-u-du-blog/](https://joelavj.github.io/Carte-d-aper-u-du-blog/)
+- Solution URL: [https://github.com/joelavj/Carte-d-aper-u-du-blog](https://github.com/joelavj/Defi-Frontend-Mentor/tree/main/Carte%20d'aper%C3%A7u%20du%20blog)
+- Live Site URL: [https://joelavj.github.io/Carte-d-aper-u-du-blog/](https://joelavj.github.io/Defi-Frontend-Mentor/Carte%20d'aper%C3%A7u%20du%20blog/index.html)
 ## Author
 
 - Github - [Joela](https://github.com/joelavj)

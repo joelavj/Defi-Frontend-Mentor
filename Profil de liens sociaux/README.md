@@ -14,5 +14,5 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/joelavj/Profil-de-liens-sociaux](https://github.com/joelavj/Defi-Frontend-Mentor/tree/main/Profil%20de%20liens%20sociaux/)
+- Live Site URL: [https://joelavj.github.io/Profil-de-liens-sociaux/](https://joelavj.github.io/Defi-Frontend-Mentor/Profil%20de%20liens%20sociaux/index.html)
