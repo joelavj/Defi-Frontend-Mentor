@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Outfit";
+  src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Young Serif";
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+body {
+  font-family: Outfit;
+  font-size: 16px;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  padding: 5% 20%;
+  margin: 0;
+  color: hsl(30, 10%, 34%);
+}
+.div-main {
+  margin: 0;
+  padding: 2em;
+  border-radius: 20px;
+  width: 80vw;
+  background-color: hsl(0, 0%, 100%);
+}
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+h1 {
+  font-family: "Young Serif";
+  color: hsl(24, 5%, 18%);
+}
+h2 {
+  font-family: "Young Serif";
+  color: hsl(14, 45%, 36%);
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+p {
+  margin-bottom: 2em;
+}
+ul,
+ol {
+  margin: 20px;
+  padding: 0;
+}
+ul li {
+  margin: 10px;
+  list-style: none;
+}
+ul li::before {
+  content: "\2022";
+  font-size: 1.7em;
+  position: relative;
+  top: 5px;
+  left: -30px;
+  color: hsl(14, 45%, 36%);
+}
+ol {
+  list-style: none;
+  counter-reset: li;
+  padding-left: 20px;
+}
+ol li::before {
+  content: counter(li) ".";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  color: hsl(14, 45%, 36%);
+  position: relative;
+  left: -20px;
+}
+ol li {
+  counter-increment: li;
+  margin: 10px 0;
+}
+.div-details {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1em 3em;
+}
+.div-details li::before {
+  color: hsl(332, 51%, 32%);
+}
+hr {
+  opacity: 0.7;
+  margin: 30px 0;
+}
+.nutrition * {
+  border-collapse: collapse;
+}
+table {
+  width: 100%;
+  height: auto;
+  padding-left: 30px;
+}
+td:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+td {
+  padding: 10px 0 10px 2em;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+tr:last-child td {
+  border-bottom: 0px;
+}
+@media screen and (max-width: 400px) {
+  body {
+    padding: 0;
+    display: block;
+  }
+  .div-main {
+    padding-top: 160px;
+  }
+  .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .div-details {
+    padding: 1em 0 1em 1em;
+  }
+  ul li {
+    margin: 5px;
+  }
+  ul li::before {
+    left: -20px;
+  }
+}
