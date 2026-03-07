@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.dm-sans-uniquifier {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  font-size: 18px;
+  font-family: "DM Sans";
+  color:  hsl(0, 0%, 7%);
+  background-color: #ebdfdf;
+}
+div{
+  border-radius: 10px;
+  padding: 20px;
+}
+.div1{
+  background-color: hsl(256, 67%, 59%);
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+.div1 span{
+  color: hsl(39, 100%, 71%);
+}
+.div1 figure{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.div1 img{
+  width: 70%;
+}
+.div1 p{
+  opacity: 0.7;
+}
+.div2{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+}
+.div2 p{
+  font-weight: bold;
+}
+.div3{
+  background-color: hsl(39, 100%, 71%);
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.div3 img{
+  width: 70%;
+}
+.div4{
+  background-color: hsl(254, 88%, 90%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+.div4 p{
+  /* font-size: 20px; */
+  font-weight: bold;
+}
+.div4 figcaption{
+  padding: 10px 0.18em 0;
+}
+.div5{
+  background-color: hsl(256, 67%, 59%);
+  padding: 20px 20%;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.div6{
+  background-color: white;
+  line-height: 1.6;
+}
+.div6 span{
+  font-size: 25px;
+  display: block;
+  font-weight: bold;
+}
+.div6 img{
+  width: 70%;
+  padding-top: 20px;
+}
+.div7{
+  background-color: hsl(31, 66%, 93%);
+  font-size: 20px;
+  font-weight: bold;
+}
+.div7 span{
+  font-style: italic;
+  color: hsl(256, 67%, 59%);
+}
+.div7 img{
+  width: 60%;
+  padding-top: 20px;
+}
+.div8{
+  background-color: hsl(39, 100%, 71%);
+  font-weight: bold;
+  font-size: 25px;
+}
+.div8 img{
+  width: 70%;
+  padding-top: 20px;
+}
+@media screen and (min-width: 375px) {
+  body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 0.3fr 0.5fr 0.8fr;
+    grid-template-areas:
+      "div7 div1 div1 div4"
+      "div7 div2 div3 div4"
+      "div8 div2 div3 div4"
+      "div8 div6 div5 div5";
+  }
+  div{
+    overflow: hidden;
+  }
+  .div1{
+    grid-area: div1;
+    padding: 50px;
+  }
+  .div1 h1{
+    font-size: 3em;
+  }
+  .div1 figure{
+    font-size: 1.4em;
+  }
+  .div2{
+    grid-area: div2;
+    font-size: 2em;
+  }
+  .div2 img{
+    width: 145%;
+  }
+  .div3{
+    font-size: 2em;
+    grid-area: div3;
+  }
+  .div3 img{
+    padding-top: 10px;
+    width: 90%;
+  }
+  .div4{
+    grid-area: div4;
+    text-align: left;
+  }
+  .div4 p{
+    font-size: 2em;
+  }
+  .div4 img{
+    width: 170%;
+  }
+  .div5{
+    grid-area: div5;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 2em;
+    text-align: left;
+  }
+  .div5 img{
+    width: 50%;
+  }
+  .div6{
+    grid-area: div6;
+  }
+  .div6 span{
+    font-size: 4em;
+  }
+  .div7{
+    grid-area: div7;
+    grid-row-end: span 2;
+    font-size: 2.5em;
+    padding-top: 10%;
+  }
+  .div7 img{
+    width: 90%;
+  }
+  .div8{
+    grid-area: div8;
+    font-size: 2.5em;
+  }
+  .div8 img{
+    width: 100%;
+    padding-top: 30px;
+  }
+}
